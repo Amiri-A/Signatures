@@ -5,6 +5,7 @@ from eth_account.messages import encode_defunct
 
 def sign(m):
     w3 = Web3()
+    acct = eth_account.Account.create()
 
     # TODO create an account for signing the message
     account_object = eth_account.Account.create()  # Create an Eth account
