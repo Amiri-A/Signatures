@@ -8,7 +8,7 @@ def sign(m):
     acct = eth_account.Account.create()
 
     # TODO create an account for signing the message
-    account_object = eth_account.Account.create()  # Create an Eth account
+    #account_object = eth_account.Account.create()  # Create an Eth account
     public_key = acct.address  # Eth account public key
     private_key = acct.privateKey  # Eth account private key
 
